@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { Banner } from '../components/Banner'
+import { Feature } from '../components/Feature'
 import Pizzalist from '../components/Pizzalist'
 
 
@@ -19,6 +20,7 @@ export default function Home() {
       </Head>
       <Banner></Banner>
       <Pizzalist></Pizzalist>
+      <Feature></Feature>
       
 
    

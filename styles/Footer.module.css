@@ -1,0 +1,10 @@
+.side{
+    background-color: rgb(35, 49, 48);
+    height: 330px;
+    margin-top: -8px;
+}
+.footer_header{
+    margin-top: 70px;
+    margin-bottom: 54px;
+    font-size: 55px;
+}
