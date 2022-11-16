@@ -3,25 +3,20 @@ import Image from "next/image";
 export const Footer = () => {
   return (
     <div>
-      <footer className="text-center text-white" >
+      <footer className="text-white" >
   
   <div className="bg-success">
    
-    <section className={styles.side}>
+    <section className={styles.side1}>
       <div className="row ">
         <h1 className={styles.footer_header}>Pizza Shop Here</h1>
-        <div className="col-lg-2 col-md-12 mb-3 mb-md-0">
+        <div className="col-lg-2 col-md-2 mb-3 ">
           <div
-            className="bg-image hover-overlay ripple shadow-1-strong rounded"
+            className="bg-image   shadow-1-strong rounded"
             data-ripple-color="light"
           >
-            <Image  src="/image/p.jpg" width='200' height='150' alt="" />
-            <a href="#!">
-              <div
-                className="mask"
-               
-              ></div>
-            </a>
+            <Image className={styles.imgsize}  src="/image/p.jpg" width='200' height='150' alt="" />
+            
           </div>
         </div>
         <div className="col-lg-2 col-md-12 mb-3 mb-md-0">
@@ -30,12 +25,7 @@ export const Footer = () => {
             data-ripple-color="light"
           >
             <Image src="/image/p2.jpg" width='200' height='150' alt="" />
-            <a href="#!">
-              <div
-                className="mask"
-                
-              ></div>
-            </a>
+           
           </div>
         </div>
         <div className="col-lg-2 col-md-12 mb-3 mb-md-0">
@@ -44,12 +34,7 @@ export const Footer = () => {
             data-ripple-color="light"
           >
             <Image src="/image/p3.jpg" width='200' height='150' alt="" />
-            <a href="#!">
-              <div
-                className="mask"
-                
-              ></div>
-            </a>
+           
           </div>
         </div>
         <div className="col-lg-2 col-md-12 mb-3 mb-md-0">
@@ -58,12 +43,7 @@ export const Footer = () => {
             data-ripple-color="light"
           >
             <Image src="/image/p4.jpg" width='200' height='150' alt="" />
-            <a href="#!">
-              <div
-                className="mask"
-               
-              ></div>
-            </a>
+            
           </div>
         </div>
         <div className="col-lg-2 col-md-12 mb-3 mb-md-0">
@@ -72,12 +52,7 @@ export const Footer = () => {
             data-ripple-color="light"
           >
             <Image src="/image/p5.jpg" width='200' height='150' alt="" />
-            <a href="#!">
-              <div
-                className="mask"
-                
-              ></div>
-            </a>
+           
           </div>
         </div>
         <div className="col-lg-2 col-md-12 mb-3 mb-md-0">
@@ -86,17 +61,12 @@ export const Footer = () => {
             data-ripple-color="light"
           >
             <Image src="/image/p6.jpg" width='200' height='150' alt="" />
-            <a href="#!">
-              <div
-                className="mask"
-                
-              ></div>
-            </a>
+           
           </div>
         </div>
       </div>
     </section>
-    <section className={styles.side}>
+    <section className={styles.side2}>
       <div className="row ">
        
         <div className="col-lg-2 col-md-12 mb-2 mt-5 mb-md-0">
@@ -105,12 +75,7 @@ export const Footer = () => {
             data-ripple-color="light"
           >
             <Image  src="/image/p5.jpg" width='200' height='150' alt="" />
-            <a href="#!">
-              <div
-                className="mask"
-               
-              ></div>
-            </a>
+            
           </div>
         </div>
         <div className="col-lg-2 col-md-12 mb-2 mt-5 mb-md-0">
@@ -119,12 +84,7 @@ export const Footer = () => {
             data-ripple-color="light"
           >
             <Image src="/image/p4.jpg" width='200' height='150' alt="" />
-            <a href="#!">
-              <div
-                className="mask"
-                
-              ></div>
-            </a>
+            
           </div>
         </div>
         <div className="col-lg-2 col-md-12 mb-2 mt-5 mb-md-0">
@@ -133,12 +93,7 @@ export const Footer = () => {
             data-ripple-color="light"
           >
             <Image src="/image/p.jpg" width='200' height='150' alt="" />
-            <a href="#!">
-              <div
-                className="mask"
-                
-              ></div>
-            </a>
+           
           </div>
         </div>
         <div className="col-lg-2 col-md-12 mb-2 mt-5 mb-md-0">
@@ -147,12 +102,7 @@ export const Footer = () => {
             data-ripple-color="light"
           >
             <Image src="/image/p2.jpg" width='200' height='150' alt="" />
-            <a href="#!">
-              <div
-                className="mask"
-               
-              ></div>
-            </a>
+           
           </div>
         </div>
         <div className="col-lg-2 col-md-12 mb-2 mt-5 mb-md-0">
@@ -161,12 +111,7 @@ export const Footer = () => {
             data-ripple-color="light"
           >
             <Image src="/image/p3.jpg" width='200' height='150' alt="" />
-            <a href="#!">
-              <div
-                className="mask"
-                
-              ></div>
-            </a>
+           
           </div>
         </div>
         <div className="col-lg-2 col-md-12 mb-2 mt-5 mb-md-0">
@@ -175,12 +120,7 @@ export const Footer = () => {
             data-ripple-color="light"
           >
             <Image src="/image/p2.jpg" width='200' height='150' alt="" />
-            <a href="#!">
-              <div
-                className="mask"
-                
-              ></div>
-            </a>
+           
           </div>
         </div>
       </div>
@@ -212,16 +152,16 @@ export const Footer = () => {
             Products
           </h6>
           <p>
-            <a href="#!" class="text-reset">Angular</a>
+            <a href="#!" class="text-reset">Potato pizza</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">React</a>
+            <a href="#!" class="text-reset">pizza fai</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Vue</a>
+            <a href="#!" class="text-reset">cikhen pizza</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Laravel</a>
+            <a href="#!" class="text-reset">pizza muthun</a>
           </p>
         </div>
       
@@ -247,13 +187,13 @@ export const Footer = () => {
         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
       
           <h6 class="text-uppercase fw-bold mb-4 mt-3">Contact</h6>
-          <p><i class="fas fa-home me-3 text-secondary"></i> New York, NY 10012, US</p>
+          <p><i class="fas fa-home me-3 text-secondary"></i> Kushtia, NS Road 10012</p>
           <p>
             <i class="fas fa-envelope me-3 text-secondary"></i>
             info@example.com
           </p>
-          <p><i class="fas fa-phone me-3 text-secondary"></i> + 01 234 567 88</p>
-          <p><i class="fas fa-print me-3 text-secondary"></i> + 01 234 567 89</p>
+          <p><i class="fas fa-phone me-3 text-secondary"></i> + 04 234 567 88</p>
+          <p><i class="fas fa-print me-3 text-secondary"></i> + 05 234 567 89</p>
         </div>
         
       </div>

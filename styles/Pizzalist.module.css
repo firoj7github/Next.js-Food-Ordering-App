@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 
 .container {
-    padding: 20px 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    
+    
+    width: 100%;
     background-color: rgb(35, 49, 48);
-    margin-top: -6px;
+    margin-top: -38px;
     height: 1150px;
+    background-size: cover;
+    background-position: center;
   }
   
   .desc {
@@ -15,13 +16,16 @@
     color: #444;
     width: 70%;
   }
+  .title{
+    text-align: center;
+    padding-top: 50px;
+  }
   
   .wrapper {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 95px;
   }
   .title{
     margin-top: 32px;
@@ -32,14 +36,77 @@
 
   }
   
-  @media screen and (max-width: 480px) {
-    .title {
-      text-align: center;
-    }
-  
-    .desc {
-      width: 90%;
-      text-align: center;
-    }
+  @media  (min-width:300px) and (max-width:480px) 
+ {
+  .container {
+    width: 100%;
+   
+    background-color: rgb(35, 49, 48);
+    margin-top: -38px;
+   
+    height: auto;
   }
   
+  
+  .wrapper {
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 95px;
+   
+  }
+ }
+  @media  (min-width:481px) and (max-width:768px) 
+ {
+  .container {
+    width: 100%;
+    background-color: rgb(35, 49, 48);
+    margin-top: -38px;
+    height: auto;
+  }
+  
+  
+  .wrapper {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 95px;
+   
+  }
+ }
+  @media  (min-width:769px) and (max-width:900px) 
+ {
+  .container {
+    width: 100%;
+    background-color: rgb(35, 49, 48);
+    margin-top: -38px;
+    height: auto;
+  }
+  
+  
+  .wrapper {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 29px;
+   
+  }
+ }
+  @media  (min-width:901px) and (max-width:1024px) 
+ {
+  .container {
+    width: 100%;
+    background-color: rgb(35, 49, 48);
+    margin-top: -38px;
+    height: auto;
+  }
+  
+  
+  .wrapper {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 120px;
+   
+  }
+ }

@@ -1,0 +1,18 @@
+.cover{
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media  (min-width:300px) and (max-width:480px) 
+{
+    .cover{
+        width: auto;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+       
+        
+    } 
+}

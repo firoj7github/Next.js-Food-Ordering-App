@@ -11,7 +11,9 @@ import Product from "../../../models/Product"
     Product.find().then(products=>{
       res.status(200).json(products);
     })
+    
   }
+  
 
   
     

@@ -1,6 +1,8 @@
 .container {
     padding: 50px;
     display: flex;
+    margin-bottom: 190px;
+    margin-top: 50px;
   }
   
   .left {
@@ -43,6 +45,8 @@
     flex-direction: column;
     justify-content: space-between;
     color: white;
+    border-radius: 7px;
+    margin-left: 15px;
   }
   
   .totalTextTitle {

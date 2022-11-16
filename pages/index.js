@@ -3,12 +3,13 @@ import Image from 'next/image'
 import { Banner } from '../components/Banner'
 import { Feature } from '../components/Feature'
 import Pizzalist from '../components/Pizzalist'
+const axios = require('axios');
 
 
 import styles from '../styles/Home.module.css'
 
 
-export default function Home() {
+export default function Home({pizzalist}) {
   return (
     <div className={styles.container}>
      
@@ -19,13 +20,29 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Banner></Banner>
-      <Pizzalist></Pizzalist>
+      <Pizzalist pizzalist={pizzalist}/>
       <Feature></Feature>
       
-
+      
    
 
       
     </div>
   )
 }
+
+
+
+export async function getServerSideProps() {
+ 
+  const res = await axios.get ("http://localhost:3000/api/products");
+  
+
+
+  return { 
+    props: 
+   {
+     pizzalist:res.data,
+   },
+  };
+};

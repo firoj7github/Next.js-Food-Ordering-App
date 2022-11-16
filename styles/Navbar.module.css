@@ -8,6 +8,7 @@
     position: sticky;
     top: 0;
     z-index: 999;
+    
   }
   
   .item {
@@ -80,12 +81,29 @@
       color: #d1411e;
   }
   
-  @media screen and (max-width:480px) {
-    .item:nth-child(2) {
-      display: none;
-    }
   
-    .item:nth-child(1) {
-      flex: 3;
-    }
+  @media  (min-width:300px) and (max-width:480px) 
+{
+  .container {
+    height: 100px;
+    padding: 0px 50px;
+    background-color: #d1411e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    width: 100%;
   }
+  
+  
+  .item:nth-child(2) {
+    display: none;
+  }
+
+  .item:nth-child(1) {
+    flex: 3;
+  }
+}

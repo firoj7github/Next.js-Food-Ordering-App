@@ -1,3 +1,67 @@
 .bg{
     background-color: blueviolet;
 }
+.manage{
+    width: 350px;
+    height: 450px;
+    background-color: crimson;
+    margin: 15px;
+    border-radius: 7px;
+   
+}
+
+@media  (min-width:300px) and (max-width:420px) 
+{
+    .manage{
+        width: 300px;
+        height: 430px;
+        background-color: crimson;
+        margin-left: -40px;
+        border-radius: 7px;
+       
+    }
+}
+@media  (min-width:421px) and (max-width:540px) 
+{
+    .manage{
+        width: 300px;
+        height: 430px;
+        background-color: crimson;
+        margin-left: 25px;
+        border-radius: 7px;
+       
+    }
+}
+@media  (min-width:541px) and (max-width:768px) 
+{
+    .manage{
+        width: 350px;
+        height: 450px;
+        background-color: crimson;
+        margin-left: 100px;
+        border-radius: 7px;
+       
+    }
+}
+@media  (min-width:769px) and (max-width:820px) 
+{
+    .manage{
+        width: 350px;
+        height: 450px;
+        background-color: crimson;
+       
+        border-radius: 7px;
+       
+    }
+}
+@media  (min-width:821px) and (max-width:1024px) 
+{
+    .manage{
+        width: 350px;
+        height: 450px;
+        background-color: crimson;
+        margin-left: -15px;
+        border-radius: 7px;
+       
+    }
+}
