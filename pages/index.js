@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { Banner } from '../components/Banner'
 import { Feature } from '../components/Feature'
 import Pizzalist from '../components/Pizzalist'
-const axios = require('axios');
+import axios from 'axios'
 
 
 import styles from '../styles/Home.module.css'

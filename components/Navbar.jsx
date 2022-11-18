@@ -9,29 +9,26 @@ export const Navbar = () => {
       <div className={styles.container}>
       <div className={styles.item}>
         <div className={styles.callButton}>
-          <Image src="/image/telephone.png" alt="" width="32" height="32" />
+          <Image  src="/image/telephone.png" alt="" width="32" height="32" />
         </div>
         <div className={styles.texts}>
           <div className={styles.text}>ORDER NOW!</div>
-          <div className={styles.text}>034 015 555</div>
+          <div className={styles.text}>034 015</div>
         </div>
       </div>
       <div className={styles.item}>
         <ul className={styles.list}>
           <Link href="/">
-          <a className={styles.listItem}>Homepage</a>
+         <a> FoodWorld </a>
           </Link>
-         
-        <Link href='/about'>
-        <a className={styles.listItem}>Menu</a>
-        </Link>
-          
-          <Image src="/image/logo.png" alt="" width="160px" height="69px" />
-          <li className={styles.listItem}>Events</li>
-          <li className={styles.listItem}>Blog</li>
-          <li className={styles.listItem}>Contact</li>
-        </ul>
+          </ul>
       </div>
+      
+      <form className={styles.search}>
+        <input className="form-control" type="search" placeholder="Search" width="200px" aria-label="Search"></input>
+        
+      </form>
+    
       <Link href="/Cart">
       <div className={styles.item}>
         <div className={styles.cart}>

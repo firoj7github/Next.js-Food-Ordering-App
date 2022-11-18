@@ -25,7 +25,7 @@
     width: 80%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-left: 95px;
+    margin-left: 115px;
   }
   .title{
     margin-top: 32px;

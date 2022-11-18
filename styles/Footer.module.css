@@ -9,13 +9,13 @@
 .side2{
     background-color: rgb(35, 49, 48);
     height: 300px;
-    margin-top: -38px;
+    margin-top: -68px;
 }
 .footer_header{
     margin-top: 40px;
     margin-bottom: 54px;
     font-size: 55px;
-    margin-left: 420px;
+    margin-left: 450px;
 }
 
 
@@ -25,12 +25,20 @@
         background-color: rgb(35, 49, 48);
         height: auto;
         margin-top: -8px;
+        padding-left: 100px;
     } 
     .side2{
         background-color: rgb(35, 49, 48);
         height: auto;
         margin-top: -8px;
+        padding-left: 100px;
     } 
+    .footer_header{
+        margin-top: 40px;
+        margin-bottom: 54px;
+        font-size: 35px;
+        margin-left: -19px;
+    }
 }
 @media  (min-width:481px) and (max-width:768px) 
 {
@@ -56,23 +64,88 @@
         
         
     } 
-    .imgsize{
+    .side{
      display: none;
+    }
+    .footer_header{
+        margin-top: 40px;
+        margin-bottom: 34px;
+        font-size: 55px;
+        margin-left: -105px;
+        display: block;
     }
 }
 @media  (min-width:769px) and (max-width:820px) 
 {
+    .footer_header{
+        margin-top: 10px;
+        margin-bottom: 24px;
+        font-size: 55px;
+       margin-left: -75px;
+    }
     .side1{
         background-color: rgb(35, 49, 48);
-        height: 900px;
-        margin-top: -8px;
+        height: auto;
+       padding-left: 300px;
+        
+        
+        
     } 
     .side2{
         background-color: rgb(35, 49, 48);
         height: auto;
-        margin-top: -8px;
+        padding-left: 300px;
+        
+        
+        
     } 
+    .side{
+     display: none;
+    }
+    .footer_header{
+        margin-top: 40px;
+        margin-bottom: 34px;
+        font-size: 55px;
+        margin-left: -105px;
+        display: block;
+    }
 }
+@media  (min-width:821px) and (max-width:912px) 
+{
+    .footer_header{
+        margin-top: 10px;
+        margin-bottom: 24px;
+        font-size: 55px;
+       margin-left: -75px;
+    }
+    .side1{
+        background-color: rgb(35, 49, 48);
+        height: auto;
+       padding-left: 350px;
+        
+        
+        
+    } 
+    .side2{
+        background-color: rgb(35, 49, 48);
+        height: auto;
+        padding-left: 350px;
+        
+        
+        
+    } 
+    .side{
+     display: none;
+    }
+    .footer_header{
+        margin-top: 40px;
+        margin-bottom: 34px;
+        font-size: 55px;
+        margin-left: -105px;
+        display: block;
+    }
+}
+
 @media  (min-width:821px) and (max-width:1024px) 
 {
     .side{

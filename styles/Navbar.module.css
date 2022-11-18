@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Barlow+Semi+Condensed&family=Monoton&family=Philosopher:ital,wght@0,400;0,700;1,400&family=Raleway:wght@500&display=swap');
+
 .container {
     height: 100px;
     padding: 0px 50px;
@@ -15,6 +17,7 @@
     flex: 1;
     display: flex;
     align-items: center;
+    
   }
   
   .item:nth-child(2) {
@@ -31,6 +34,8 @@
     padding: 10px;
     width: 50px;
     height: 50px;
+   
+   
   }
   
   .texts {
@@ -47,18 +52,33 @@
     font-size: 20px;
     font-weight: bold;
   }
+  .search{
+    margin-left: -2050px;
+    width: 270px;
+  }
   
-  .list {
+  .list a{
     padding: 0;
     display: flex;
     align-items: center;
     list-style: none;
     color: white;
+    margin-left: -440px;
+    text-decoration: none;
+    padding-top: 13px;
+    font-size: 29px;
+    
+    
+    font-family: 'Philosopher', sans-serif;
+    
+    
   }
   
   .listItem {
     margin: 20px;
     font-weight: 500;
+    text-decoration: none;
+    color: white;
   }
   
   .cart{

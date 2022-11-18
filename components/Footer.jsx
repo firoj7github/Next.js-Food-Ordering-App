@@ -12,10 +12,10 @@ export const Footer = () => {
         <h1 className={styles.footer_header}>Pizza Shop Here</h1>
         <div className="col-lg-2 col-md-2 mb-3 ">
           <div
-            className="bg-image   shadow-1-strong rounded"
+            className={styles.side}
             data-ripple-color="light"
           >
-            <Image className={styles.imgsize}  src="/image/p.jpg" width='200' height='150' alt="" />
+            <Image src="/image/p.jpg" width='200' height='150' alt="" />
             
           </div>
         </div>
@@ -138,7 +138,7 @@ export const Footer = () => {
         <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
        
           <h6 class="text-uppercase fw-bold mb-4 mt-3">
-            <i class="fas fa-gem me-3 text-secondary "></i>Company name
+            <i class="fas fa-gem  text-secondary "></i>Company name
           </h6>
           <p>
             Here you can use rows and columns to organize your footer content. Lorem ipsum
@@ -187,13 +187,13 @@ export const Footer = () => {
         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
       
           <h6 class="text-uppercase fw-bold mb-4 mt-3">Contact</h6>
-          <p><i class="fas fa-home me-3 text-secondary"></i> Kushtia, NS Road 10012</p>
+          <p><i class="fas fa-home  text-secondary"></i> Kushtia, NS Road 10012</p>
           <p>
-            <i class="fas fa-envelope me-3 text-secondary"></i>
+            <i class="fas fa-envelope  text-secondary"></i>
             info@example.com
           </p>
-          <p><i class="fas fa-phone me-3 text-secondary"></i> + 04 234 567 88</p>
-          <p><i class="fas fa-print me-3 text-secondary"></i> + 05 234 567 89</p>
+          <p><i class="fas fa-phone  text-secondary"></i> + 04 234 567 88</p>
+          <p><i class="fas fa-print  text-secondary"></i> + 05 234 567 89</p>
         </div>
         
       </div>
