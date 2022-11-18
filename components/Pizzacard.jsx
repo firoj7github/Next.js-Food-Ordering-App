@@ -16,8 +16,8 @@ const Pizzacard = ({pizza}) => {
        <Image className="ms-4" src={pizza.img}  width="300px" height="306px" alt="..."/>
        <div>
          <h5 className=" ms-5 text-white fs-4 fw-bold">{pizza.title}</h5>
-         <label class="ms-5 fs-4 fw-bold text-white">${pizza.prices[0]}</label>
-         <label class="ms-3 fw-bold text-info"><s>$3.15</s></label>
+         <label className="ms-5 fs-4 fw-bold text-white">${pizza.prices[0]}</label>
+         <label className="ms-3 fw-bold text-info"><s>$3.15</s></label>
         </div>
     
     
