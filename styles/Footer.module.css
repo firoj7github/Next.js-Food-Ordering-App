@@ -19,7 +19,7 @@
 }
 
 
-@media  (min-width:300px) and (max-width:480px) 
+@media  (min-width:300px) and (max-width:420px) 
 {
     .side1{
         background-color: rgb(35, 49, 48);
@@ -40,7 +40,28 @@
         margin-left: -19px;
     }
 }
-@media  (min-width:481px) and (max-width:768px) 
+@media  (min-width:421px) and (max-width:540px) 
+{
+    .side1{
+        background-color: rgb(35, 49, 48);
+        height: auto;
+        margin-top: -8px;
+        padding-left: 160px;
+    } 
+    .side2{
+        background-color: rgb(35, 49, 48);
+        height: auto;
+        margin-top: -8px;
+        padding-left: 160px;
+    } 
+    .footer_header{
+        margin-top: 40px;
+        margin-bottom: 54px;
+        font-size: 35px;
+        margin-left: -19px;
+    }
+}
+@media  (min-width:541px) and (max-width:768px) 
 {
     .footer_header{
         margin-top: 10px;
