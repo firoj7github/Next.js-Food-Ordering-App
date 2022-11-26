@@ -12,21 +12,21 @@ import styles from '../styles/Home.module.css'
 export default function Home({pizzalist}) {
   return (
     <div className={styles.container}>
-     
+
       <Head>
         <title>Food Order App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      
+
       <Banner></Banner>
       <Pizzalist pizzalist={pizzalist}/>
       <Feature></Feature>
-      
-      
-      
-      
-      
-      
+
+
+
+
+
+
     </div>
   )
 }
@@ -34,13 +34,13 @@ export default function Home({pizzalist}) {
 
 
 export async function getServerSideProps() {
- 
-  const res = await axios.get ("http://localhost:3000/api/products");
-  
+
+  const res = await axios.get ("https://next-js-food-ordering-app-45xt.vercel.app/api/products");
 
 
-  return { 
-    props: 
+
+  return {
+    props:
    {
      pizzalist:res.data,
    },
