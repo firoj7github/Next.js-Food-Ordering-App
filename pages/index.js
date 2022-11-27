@@ -4,6 +4,7 @@ import { Banner } from '../components/Banner'
 import { Feature } from '../components/Feature'
 import Pizzalist from '../components/Pizzalist'
 import axios from 'axios'
+import baseUrl from '../helpers/baseUrl'
 
 
 import styles from '../styles/Home.module.css'
@@ -35,7 +36,7 @@ export default function Home({pizzalist}) {
 
 export async function getServerSideProps() {
  
-  const res = await axios.get ("http://localhost:3000/api/products");
+  const res = await axios.get (`${baseUrl}/api/products`);
   
 
 

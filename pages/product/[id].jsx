@@ -3,6 +3,7 @@ import Image from "next/image";
 import {useDispatch } from 'react-redux'
 import { addProduct } from "../../redux/cartSlics";
 import { useState } from "react";
+import baseUrl from '../../helpers/baseUrl'
 
 
 
@@ -98,7 +99,7 @@ import { useState } from "react";
     
     export async function getServerSideProps({params:{id}}) {
  
-      const res = await fetch(`http://localhost:3000/api/product/${id}`);
+      const res = await fetch(`${baseUrl}/api/product/${id}`);
       
       const data= await res.json()
     
