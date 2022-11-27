@@ -35,14 +35,12 @@ export default function Home({pizzalist}) {
 
 
 export async function getServerSideProps() {
-<<<<<<< HEAD
+
  
   const res = await axios.get (`${baseUrl}/api/products`);
   
-=======
 
-  const res = await axios.get ("https://next-js-food-ordering-app-45xt.vercel.app/api/products");
->>>>>>> f932c65b5b8d37fd1bfe5821fe7566033af0e3ef
+
 
 
 
