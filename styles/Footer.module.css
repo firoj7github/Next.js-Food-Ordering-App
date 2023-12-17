@@ -5,17 +5,20 @@
     position: relative;
     padding-top: 15px;
     display: block;
+    
 }
 .side2{
     background-color: rgb(35, 49, 48);
     height: 300px;
     margin-top: -68px;
+    
 }
 .footer_header{
     margin-top: 40px;
     margin-bottom: 54px;
     font-size: 55px;
-    margin-left: 450px;
+    
+    text-align: center;
 }
 
 

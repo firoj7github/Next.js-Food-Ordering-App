@@ -8,7 +8,7 @@ export const Banner = () => {
         <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
   <div className="carousel-inner">
     <div className={styles.cover}>
-      <Image  src="/image/banner.png" width="1480px" height="590px"   alt="banner image"/>
+      <Image  src="/image/banner.png" width="2200px" height="800px"   alt="banner image"/>
     </div>
     
   </div>
